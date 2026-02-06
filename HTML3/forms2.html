@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <form action="/server">
+ <div>
+            <label for="Username">Username</label>
+            <input
+            type="text" 
+            id="Username" 
+            placeholder="enter Username" 
+            name="Username">
+        </div>
+        URL =  http://127.0.0.1:3000/server?Username=abce -->
+<!-- 
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="enter password" name="pass">
+        </div>
+        <button>Submit</button>
+    </form>
+
+     <hr>
+  <form action="https://www.google.com/search?q=apple">
+    <input type="text" placeholder="search in google" name="q">
+    <button>Search</button>
+
+
+    
+<hr> -->
+ <!-- </form> -->
+  <form action="/server">
+    <!-- checked => by default we want checked age=on-->
+ <!-- checkbox => select multiple options -->
+<input type="checkbox" name="age" id="age" checked>
+   <label for="age">I am 18</label>
+   <hr>
+   CHOOSE YOUR SUBJECTS
+<input type="checkbox" name="subjects" id="maths" value="maths">
+   <label for="maths">Maths</label>
+<input type="checkbox" name="subjects" id="science" value="science">
+   <label for="science">Science</label>
+<input type="checkbox" name="subjects" id="english" value="english">
+   <label for="english">english</label>
+    
+<hr>
+<div>
+<!--
+    radio => select only one option at a  time -->
+    <!-- name = will be same in all -->
+    <input type="radio" name="apple" id="apple" value="apple">
+    <label for="apple">Apple</label>
+    <input type="radio" name="apple" id="mango" value="mango">
+    <label for="mango">mango</label>
+    <input type="radio" name="apple" id="orange" value="orange">
+    <label for="orange">orange</label>
+      
+</div>
+<hr>
+<div>
+    <!-- DROPDOWN MENU -->
+    CHOOSE YOUR PROFESSION
+    <select name="profession" id="profession">
+    <option>Select your option</option>
+    <option value="student">student</option>
+    <option value="developer">developer</option>
+      
+        </select>
+</div>
+<label for="vol">Select your volume level</label>
+<input type="range" min="0" max="100" id="vol" name="volume" step="10" value="70">
+  <hr>
+  <label for="feedback">feedback</label>
+<textarea name="feedback" id="feedback" placeholder="write your feedback here">
+
+</textarea>
+
+ <button>Submit</button>
+   
+</form>
+   
+</body>
+</html>
