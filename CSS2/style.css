@@ -1,0 +1,116 @@
+* {
+    font-family: "Courier New";
+    /* universal selector [*] */
+}
+
+h1,
+h3 {
+    color: #b92b27;
+    /* element selector */
+}
+
+#login {
+
+    background-color: white
+}
+
+/* id selecotr => particular single element */
+#signup {
+    color: white;
+    background-color: #b92b27;
+}
+
+.upvote {
+    background-color: green;
+    color: aliceblue;
+    /* class selector */
+}
+
+/* 
+descendant selector */
+/* post class ke inside anchor tag */
+.post a {
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a {
+    color: hotpink;
+}
+
+/* Adjacent sibling combinator => equal level + sign */
+/* heading 3 immediately comes after p */
+p+h3 {
+    text-decoration: underline;
+}
+
+.upvote+button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* child combinator */
+/* div ke just baad wala element */
+div>input {
+    background-color: rgba(0, 255, 247, 0.67);
+}
+
+/* Attribute selector */
+input[type="text"] {
+    color: black;
+}
+
+input[type="password"] {
+    color: black;
+}
+
+/* input[type]{
+    background-color: white;
+} */
+ div[id="myid"] p{
+    color: green;
+ }
+
+ /* OR
+ #myid p {
+    color: green;
+ } */
+button:hover{
+    background-color: black;
+    color: white;
+}
+h3:hover{
+    text-decoration: none;
+}
+
+/* pseudo class */
+button:active{
+    background-color: darkmagenta;
+    color: black;
+}
+p:active{
+    font-weight: bold;
+    color: green;
+}
+input[type="radio"]:checked + label{
+         color: red;
+         font-weight: bold;
+}
+div:nth-of-type(1n){
+    background-color:antiquewhite;
+}
+/* pseudo elements */
+/* A keyword added to selector that lets you style a specific part
+of selected elements */
+h1::first-letter{
+    color: green;
+}
+p::first-line{
+    color: red;
+}
+p::selection{
+    background-color: rgb(116, 116, 216);
+}
+
+/* SELECTOR SPECIFICITY */
+/*inline > id > class > element */
