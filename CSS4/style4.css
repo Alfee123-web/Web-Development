@@ -1,0 +1,44 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+
+}
+
+#Static {
+    background-color: yellow;
+    position: static;
+    /* by default */
+    top: 100px;
+    left: 100px;
+}
+
+#relative {
+    /* the offset is relative to itself based on the values of top,rig,bot,left; */
+    position: relative;
+    /* space toward right if force by left  */
+    background-color: yellow;
+    top: 100px;
+    left: 100px;
+}
+
+/* absolute => element is removed from normal document flow , and no space is created 
+for the element in page layout 
+it is positioned relative to its closest positioned ancestor , if any 
+otherwise it is placed relative to the initial containing block */
+#Absolute {
+    background-color: yellow;
+    top: 100px;
+    left: 100px;
+    position: absolute;
+}
+#Fixed{
+     background-color: yellow;
+    top: 100px;
+    left: 100px;
+    position: fixed;
+}
