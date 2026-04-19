@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+}
+
+#container {
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    /* contain , limit => parent container , by default row direction */
+    /* 
+    flex-direction: column-reverse; */
+    /* whole orientation reverse */
+    flex-direction: row;
+    justify-content: flex-start;
+    /* left */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* center => towards main axis */
+
+    /* distributes space between and around content items */
+
+    /* flex-wrap: nowrap; */
+    /* by default */
+    /* flex-wrap: wrap; */
+    /* wrap along main axis */
+    /* flex-wrap: wrap-reverse; */
+    /* cross axis along rev dir wrap  */
+
+    /* align-items: flex-end ; */
+    /* align-items: baseline; */
+    /* align-content: center; */
+    align-content: flex-start;
+
+
+
+
+}
+
+#org {
+    align-self: flex-start;
+    /* flex-basis: 50px; */
+    /* initial main size of flex item */
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+}
+
+#blue {
+    /* flex-basis: 400px; */
+    /* flex-grow: 2; */
+    /* min-width: 400px; */
+    flex-shrink: 2;
+    flex: 2 2 100px;
+    /* grow, shrink , flex-basis */
+}
+
+#container div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
