@@ -1,0 +1,46 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    /* animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 3;
+    animation-direction:normal; */
+
+    animation-name: colorAnimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 3;
+    animation-direction:normal;
+
+    animation: colorAnimation 3s ease-in 0s infinite normal;
+}
+@keyframes fontAnimation{
+    from{font-size : 20px;
+    }
+    to{
+        font-size:40px;
+    }
+}
+@keyframes colorAnimation{
+    0%{background-color: black;
+    }
+    50%{
+        background-color: blue;
+
+    }
+    100%{
+        background-color: aqua;
+    }
+}
+@keyframes widthAnimation{
+    from{width:10px;
+        background-color:rgba(203, 74, 203, 0.822);
+    }
+    to{
+        width: 400px;
+        background-color: black;
+
+    }
+}
