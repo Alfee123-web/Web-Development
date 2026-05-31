@@ -1,0 +1,70 @@
+/* #one {
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+#two {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: red;
+
+}
+
+#three {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+#four {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: green;
+} */
+
+/* h2{
+    display: inline;
+    background-color: pink;
+}
+span{
+    display: block;
+    background-color: rgba(0, 128, 0, 0.552);
+} */
+span {
+
+    background-color: rgba(0, 128, 0, 0.859);
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    /* ignore */
+    padding: 20px;
+    /* left-right me set hoga onli */
+    margin: 20px;
+      /* left-right me set hoga onli */
+
+}
+
+div{
+    
+    /* background-color: rgba(0, 128, 0, 0.859); */
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    /* ignore */
+    padding: 20px;
+    /* left-right me set hoga onli */
+    /* top and bottom will overlap */
+    margin: 20px;
+      /* left-right me set hoga onli */
+}

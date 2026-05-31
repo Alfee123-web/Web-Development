@@ -1,0 +1,26 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.967);
+    /* transition-duration: 1s; */
+    /* opacity => 0 to 1 */
+    /* transition-delay: 1s; */
+
+    margin-top: 10px;
+    margin: 0 auto;
+    transition: margin-top 2s ease-in 0.2s;
+    /* transition => property name | duration | timing function | delay */
+
+
+}
+
+/* #opacity {
+    background-color: rgba(255, 255, 0, 0.542);
+    opacity: 0.5;
+} */
+
+div:hover {
+    background-color: pink;
+    /* border-radius: 50%; */
+    margin-top: 400px;
+}

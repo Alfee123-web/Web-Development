@@ -1,0 +1,49 @@
+/* CSS => its a language that is used to describe the style of a document */
+/* h1{
+    color: brown; 
+    /* foreground */
+    /* background-color: beige;
+}
+button{
+    color: black;
+    background-color: pink;
+}
+p{
+    color: sky;
+} */ 
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:red ;
+    letter-spacing: normal;
+    /* border: solid;
+width: 100%; */
+}
+h2{
+    font-weight: normal;
+    text-decoration: overline;
+    font-family: impact;
+    font-family:Arial, Helvetica, sans-serif;
+    /* list of fonts if browser not support any */
+    
+}
+h3{
+    text-align:start;
+    text-decoration: line-through;
+    letter-spacing: 2px;
+    /* 1 inch => 96px */
+}
+p{
+    text-align: justify;
+    font-weight: bold;  
+    line-height: 2.5;
+    font-family: sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+/* FONT FAMILY 
+specifies a prioritized list of one or more font family names */

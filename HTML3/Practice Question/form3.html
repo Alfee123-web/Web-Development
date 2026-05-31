@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> <b>Registration Form </b></h1>
+    <form action="/server">
+        <div>
+ <input type="text" id="firstname"  name="fname" placeholder="First name">
+
+        <input type="text" id="secondname" name="sname" placeholder="Second name"> 
+
+        </div>
+       
+        <div>
+           <label for="gender"> Please Select Your Gender </label>
+            <select name="gender" id="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+        <div>
+            Do You agree all terms and service ?
+            <input type="checkbox" value="yes" id="yes" name="yes">
+            <label for="yes">Yes I agree</label>
+        </div>
+        <button>Register</button>
+    </form>
+</body>
+</html>

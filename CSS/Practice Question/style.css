@@ -1,0 +1,37 @@
+/* h1 {
+    /* color: orange; */
+    /* color: rgb(255, 0, 0);
+    color: rgb(0, 255, 0);
+    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 0);
+    color: rgba(120, 0, 120, 0.775);
+}
+
+button {
+    background-color:black;
+    /* color: white; */
+    /* hexadecimal => base 16 (0 to 9 & A to F)
+    color: #000;
+    color: #ffff00;
+    color:#ff00ff;
+    color: #00ff00;
+    color: #fff;
+
+} */
+
+/* p {
+    background-color: black;
+    color: white;
+} */ 
+h1{
+    color: #ffa511;
+    font-family: league spartan;
+    text-align: center;
+    font-weight: 900;
+    font-size: 55px;
+    letter-spacing: 2px;
+    line-height: 1.5x;
+    text-decoration:teal double underline;
+    text-transform: uppercase;
+
+}

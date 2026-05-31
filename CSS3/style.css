@@ -1,0 +1,45 @@
+div {
+    height: 200px;
+    /* height of only content area */
+    width: 500px;
+    /* by default it sets content area width of element */
+    /* background-color: pink;
+    border-width: 5px;
+    border-color: aquamarine;
+    border-style: solid; */
+
+    border: 10px solid aquamarine;
+    /* border-left: 5px dashed blue;
+    border-top: 5px dashed black; */
+
+    border-radius: 20px;
+    /* border-radius: 50%; */
+    /* to round the corners of elements outer border */
+    padding-top: 50px;
+    margin-bottom: 25px;
+    /* margin-left:20px; */
+    margin: 20px;
+}
+
+h1 {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: purple;
+
+}
+
+button {
+    border: 3px solid red;
+    /* border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px; */
+    /* padding: 25px; */
+    /* padding: 10px 25px; */
+    /* top bottom - left right */
+    padding: 1px 2px 3px 4px;
+    /* clockwise => top right bottom left*/
+
+    background-color: beige;
+}
+
+
